@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joana Mae C. Mondelo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Joana Mae</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image-container pulse-animation">
+                <div class="profile-image">
+                    <img src="attached_assets/me 2_1749123124556.jpg" alt="Joana Mae C. Mondelo" class="profile-photo">
+                </div>
+            </div>
+            <h1 class="hero-title">Hello, I'm <span class="highlight">Joana Mae C. Mondelo</span></h1>
+            <p class="hero-subtitle">Office Administration Professional - Legal Track</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </button>
+                <a href="attached_assets/Joana_Mae_Mondelo_Resume.pdf" download="Joana_Mae_Mondelo_Resume.pdf" class="btn btn-secondary">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        I am an eager and dedicated Office Administration professional with a Legal Track specialization, currently pursuing my Bachelor's degree at Rizal Technological University. I am passionate about applying my academic knowledge and developing practical skills to contribute to organizational success.
+                    </p>
+                    <p class="about-paragraph">
+                        With experience in legal department operations, document management, and administrative support, I bring strong organizational skills, leadership capabilities, and excellent communication abilities to every opportunity. I am committed to building a solid foundation for professional growth while making meaningful contributions to any team.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2025</span>
+                            <span class="stat-label">Expected Graduation</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">70</span>
+                            <span class="stat-label">WPM Typing Speed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">Dean's</span>
+                            <span class="stat-label">List Consistently</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="attached_assets/Tita_1749124092156.jpg" alt="Joana Mae Mondelo" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Jan 2025 - Apr 2025</div>
+                        <h3 class="timeline-title">Legal Department Intern</h3>
+                        <h4 class="timeline-company">Edgepoint Towers Inc.</h4>
+                        <p class="timeline-description">
+                            Performed comprehensive research on laws and regulations. Provided administrative and clerical support including organizing and maintaining legal files and handling correspondence. Assisted in maintaining corporate records, preparing board resolutions, and minutes for corporate housekeeping.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Legal Research</span>
+                            <span class="skill-tag">Corporate Records</span>
+                            <span class="skill-tag">Documentation</span>
+                            <span class="skill-tag">Database Management</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">Dec 2019 - Jan 2020</div>
+                        <h3 class="timeline-title">Work Immersion Student</h3>
+                        <h4 class="timeline-company">Legazpi Savings Bank</h4>
+                        <p class="timeline-description">
+                            Organized documents into specific folders based on type and purpose, including loan applications, customer inquiries, and financial statements. Carefully handled and scanned cheques while ensuring image clarity and completeness for proper documentation.
+                        </p>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Document Management</span>
+                            <span class="skill-tag">Data Entry</span>
+                            <span class="skill-tag">Quality Assurance</span>
+                            <span class="skill-tag">Banking Operations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-user-tie"></i>
+                        Professional Skills
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Leadership</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Event Management</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Teamwork</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Multi-tasking</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-keyboard"></i>
+                        Technical Skills
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Typing Skills (70 WPM)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Creative Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Document Organization</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-comments"></i>
+                        Communication Skills
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">English Proficiency</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Verbal Communication</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Written Communication</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements & Leadership</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-trophy"></i>
+                        Academic Excellence
+                    </h3>
+                    <div class="achievements-list">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Consistent Dean's Lister</h4>
+                                <p>2021-2024 at Rizal Technological University</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>With Honors</h4>
+                                <p>2019 & 2020 at Liceo de Masbate</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Salutatorian</h4>
+                                <p>2014 Elementary School Graduate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-users"></i>
+                        Leadership Roles
+                    </h3>
+                    <div class="achievements-list">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Academic Organization Treasurer</h4>
+                                <p>2022-2023</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-edit"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Student Government Secretary</h4>
+                                <p>2017</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>PASOA Head Committee</h4>
+                                <p>Arts and Design Team Leader</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-brain"></i>
+                        Competitions & Recognition
+                    </h3>
+                    <div class="achievements-list">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>District MTAP Math Challenge</h4>
+                                <p>Representative 2014</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>District Academic Quiz Bee</h4>
+                                <p>Representative 2008</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-newspaper"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4>Campus Journalism Workshop</h4>
+                                <p>District Representative 2012</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Bachelor of Science</h3>
+                        <h4 class="education-field">Office Administration - Legal Track</h4>
+                        <p class="education-school">Rizal Technological University</p>
+                        <p class="education-year">2021 - 2025</p>
+                        <p class="education-description">
+                            Currently pursuing degree with consistent Dean's List recognition (2021-2024). Specializing in legal administration, office management, and professional communication skills.
+                        </p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Senior High School</h3>
+                        <h4 class="education-field">Accountancy, Business, and Management (ABM)</h4>
+                        <p class="education-school">Liceo de Masbate</p>
+                        <p class="education-year">2018 - 2020</p>
+                        <p class="education-description">
+                            Completed with Honors in 2020 and 2019. Developed strong foundation in business principles, accounting practices, and management concepts.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+        <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <!-- Professional Certificates Header -->
+            <div class="section-header">
+                <h2 class="section-title">Professional Certificates</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Grid containing only the two professional certificates -->
+            <div class="certificates-grid">
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/download_1749123559291.jpg"
+                          alt="National Certificate III in Events Management Services"
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>National Certificate III</h4>
+                        <p>Events Management Services</p>
+                        <span class="certificate-date">May 2, 2024</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/download_1749123561918.jpg"
+                          alt="National Certificate II in Customer Services"
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>National Certificate II</h4>
+                        <p>Customer Services</p>
+                        <span class="certificate-date">November 15, 2024</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- Organization Sub‐Header for remaining certificates -->
+            <div class="section-header">
+                <h3 class="section-title">Organization Certificates</h3>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Grid containing all other (non‐professional) certificates -->
+            <div class="certificates-grid">
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (7)_1749123704767.jpg"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Michael Porter’s Lecture Series 2024</h4>
+                        <p>Business Management Functional Strategies and Practices</p>
+                        <span class="certificate-date">May 11, 2024</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (7)_1749123704767.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Business Mind Setting for Office Administrators</h4>
+                        <p>The Basics of Business Plan Writing and Product Exhibition</p>
+                        <span class="certificate-date">May 2, 2023</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (8)_1749123704767.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Managerial Mindset</h4>
+                        <p>Unleashing Leadership Skills as Young Professionals</p>
+                        <span class="certificate-date">April 30, 2024</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (9)_1749123704767.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Leading with Purpose</h4>
+                        <p>Navigating Challenges and Inspiring Growth</p>
+                        <span class="certificate-date">April 30, 2024</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (10)_1749123704767.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Leading with Heart</h4>
+                        <p>Nurturing Growth, Inspiring Teams, and Sparking Success</p>
+                        <span class="certificate-date">April 29, 2024</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (11)_1749123704767.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Certificate of Appreciation</h4>
+                        <p>Thesis Writing Made Easy 2022: Rediscovering to Conquer the Complexities of Thesis</p>
+                        <span class="certificate-date">October 5, 2022</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo J_1749123704767.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Thriving Minds</h4>
+                        <p>Cultivating Mental Health at Work</p>
+                        <span class="certificate-date">April 22, 2024</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo J-1_1749123704767.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>BSOA Track Orientation & Selection</h4>
+                        <p>Wisdom and Vision Prevail in Choosing Your Career Path</p>
+                        <span class="certificate-date">August 7, 2021</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo, Joana Mae C._1749123704767.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Understanding the Importance of Work Ethics</h4>
+                        <p>Building a Foundation of Integrity: Exploring Work Ethics in Today’s Workplace</p>
+                        <span class="certificate-date">April 26, 2024</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (4)_1749123156404.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Academic Achiever</h4>
+                        <p>1st Semester S.Y. 2021–2022 with GPA of 1.36</p>
+                        <span class="certificate-date">March 7, 2022</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (5)_1749123156404.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>BSOA Track Selection 2022</h4>
+                        <p>Pick Me Tracks: Guiding Future Professionals</p>
+                        <span class="certificate-date">July 29, 2022</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (6)_1749123156404.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Work Ethics: Keys to Success</h4>
+                        <p>Today’s Workplace Workshop</p>
+                        <span class="certificate-date">April 26, 2024</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo (7)_1749123156404.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Certificate of Appreciation</h4>
+                        <p>HR Revolution Committee Member</p>
+                        <span class="certificate-date">December 3, 2022</span>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img
+                          src="attached_assets/Mondelo J_1749123156404.png"
+                          alt=""
+                          loading="lazy"
+                        >
+                    </div>
+                    <div class="certificate-overlay">
+                        <h4>Business Mind Setting</h4>
+                        <p>Office Administrators: Business Plan Writing and Product Exhibition</p>
+                        <span class="certificate-date">May 2, 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>joanajoanamc@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+63 95 305 32 508</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Pasay City, Manila, Philippines</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="attached_assets/Joana_Mae_Mondelo_Resume.pdf" download="Joana_Mae_Mondelo_Resume.pdf" 
+                   style="display: inline-flex; align-items: center; gap: 8px; padding: 16px 32px; 
+                          background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary))); 
+                          color: white; text-decoration: none; border-radius: 8px; 
+                          font-weight: 600; font-size: 18px; transition: transform 0.3s ease; 
+                          box-shadow: 0 4px 15px hsl(var(--shadow));"
+                   onmouseover="this.style.transform='translateY(-3px)'"
+                   onmouseout="this.style.transform='translateY(0)'">
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Joana Mae C. Mondelo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
